@@ -1,0 +1,81 @@
+# Question 1
+## 1.1
+$$\epsilon = (\alpha + \gamma)\times a$$
+## 1.2
+$$\sigma_z = \sqrt{\frac{\sum_{i=1}^{n} (y_i-\bar{x})^2}{n_1}}$$
+## 1.3
+a. Asia
+<ul>
+  <li>Japan</li>
+  <li>China</li>
+  <li>India</li>
+  <li>South Korea</li>
+</ul>
+b. Europe
+<ol>
+  <li>Germany</li>
+  <li>France</li>
+  <li>Spain</li>
+  <li>England</li>
+</ol>
+c. North America
+<ol style="list-style-type: lower-roman;">
+<li>Canada</li>
+<li>Mexico</li>
+<li>USA</li>
+</ol>
+​
+## 1.4
+# Introduction
+This is introduction to <b>Statistics</b>
+# Discusion
+Based on the results, it can be concluded that on April 11<sup>th</sup>, we have to *fast*.
+# Conclusion
+It can be concluded as follows:
+- Nowadays people are using # to mean so many things.
+- If we classify 100 respondents by two different categories, 45 falls under as junior and $100 − 45 = 55$ falls in senior category
+​
+# Question 2
+ 
+df <- data.frame(name = c("A", "B", "C", "D"),
+age = c(25, 40, 45, 30),
+height = c(150, 160, 190, NA),
+weight = c(45, 60, 70, 64))
+ 
+2.1
+ 
+class(df)
+ 
+2.2
+ 
+head(df, n=6)
+ 
+2.3
+ 
+mean(df$age)
+ 
+2.4
+ 
+var(df$age)
+ 
+2.5
+ 
+sd(df$weight)
+ 
+Question 3
+3.1
+ 
+first <- sum(df$age^2)
+second <- sum(df$age)^2
+first
+second
+ 
+3.2
+ 
+a <- df$age
+b <- df$weight
+first <- sum(a * b)
+second <- sum(a) * sum(b)
+first
+second
+ 
